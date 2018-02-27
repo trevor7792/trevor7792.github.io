@@ -16,8 +16,8 @@ let projects = [
 ]
 
 for (let i = 0; i < projects.length; i++) {
-  console.log('project1' + i + 'Night out yo' + projects[i].title)
-  if (project[i].hasThumbnail === true) {
-    console.log('Screen Shot of Story Map' + projects[i].id + 'night.jpg')
+  console.log('project' + i + 'title' + projects[i].title)
+  if (projects[i].hasThumbnail === true) {
+    console.log('images/screenshot' + projects[i].id + '.jpg')
   }
 }
