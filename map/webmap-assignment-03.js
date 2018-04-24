@@ -27,7 +27,7 @@ let myFingerIcon = L.icon({
   popupAnchor: [-3, -76]
 })
 let myMarker = L.marker([51.5, -0.09]).addTo(clownmap)
-let myMarker = L.marker([51.5, -0.09], {icon: myFingerIcon}).addTo(map);
+let myMarker = L.marker([51.5, -0.09], {icon: myFingerIcon}).addTo(clownmap);
 let myStyle = {
   color: 'green',
   fillColor: 'orange'
