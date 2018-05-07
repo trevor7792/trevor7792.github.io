@@ -1,3 +1,18 @@
+
+
+body{
+  background-color: #e0e0e0;
+}
+
+#header{
+  text-align: center;
+  background-color: #606060;
+}
+
+.title{
+  text-align: center;
+}
+
 #Trevormap {
   height: 500px;
 }
